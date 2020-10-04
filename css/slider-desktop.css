@@ -1,0 +1,52 @@
+@media (min-width: 1024px) {
+  .slider--item {
+    display: flex;
+  }
+  .slider--item .content--item {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .middle--content {
+    display: flex;
+  }
+  .middle--content .content--image {
+    height: 40vh;
+    width: 70%;
+  }
+  .middle--content .content--item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .menu-btn {
+    display: none;
+  }
+  .humburger--logo--container {
+    width: 60%;
+  }
+  .humburger--logo--container .nav-menu {
+    display: flex;
+    opacity: 1;
+    justify-content: flex-start;
+    gap: 32px;
+  }
+  .humburger--logo--container .nav-menu li {
+    color: #fff;
+    font-weight: 500;
+  }
+  .humburger--logo--container svg {
+    width: 100px;
+    margin-right: 32px;
+  }
+  /*EFEITO UNDERLINE NO NAV MENU*/
+
+  .humburger--logo--container .nav-menu li {
+    cursor: pointer;
+    pointer-events: auto;
+  }
+  .humburger--logo--container .nav-menu li:hover {
+    border-bottom: 1px solid #fff;
+  }
+}
